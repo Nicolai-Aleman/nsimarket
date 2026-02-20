@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="No Somos Ignorantes - Simplificamos las Finanzas para vos. Aprende, crece y mejora tu economía con herramientas y recursos prácticos.">
+    <meta name="keywords" content="finanzas personales, educación financiera, economía, Bolivia, herramientas financieras, presupuesto, emprendedores">
+    <meta name="author" content="No Somos Ignorantes">
+
+    <!-- Open Graph / Social Media -->
+    <meta property="og:title" content="No Somos Ignorantes - Educación Financiera">
+    <meta property="og:description" content="Simplificamos las Finanzas para vos. Aprende, crece y mejora tu economía.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="../assets/og-image.jpg">
+    <meta property="og:url" content="https://nosomosignorantes.com">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="No Somos Ignorantes - Educación Financiera">
+    <meta name="twitter:description" content="Simplificamos las Finanzas para vos.">
+    <meta name="twitter:image" content="../assets/og-image.jpg">
+
+    <title>No Somos Ignorantes | Educación Financiera</title>
+
+    <!-- Fonts - Elegante como Jeton -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" sizes="32x32" href="../assets/profile.jpg">
+    <link rel="icon" type="image/jpeg" sizes="16x16" href="../assets/profile.jpg">
+    <link rel="apple-touch-icon" href="../assets/profile.jpg">
+</head>
+<body>
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">
+                <div class="loader-icon-wrapper">
+                    <div class="loader-ring"></div>
+                    <span class="loader-initials">NSI</span>
+                </div>
+            </div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-text"><span class="logo-no">NO</span> <span class="logo-somos">SOMOS</span> <span class="logo-accent">IGNORANTES</span></span>
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <a href="#inicio" class="nav-link active">Inicio</a>
+                <a href="#nosotros" class="nav-link">Nosotros</a>
+                <a href="#productos" class="nav-link">Productos</a>
+                <a href="#recursos" class="nav-link">Recursos</a>
+                <a href="#podcast" class="nav-link">Podcast</a>
+                <a href="#contacto" class="nav-link">Contacto</a>
+            </div>
+
+            <div class="nav-actions">
+                <a href="#productos" class="btn btn-primary nav-cta">
+                    <span>Ver Herramientas</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Estilo Jeton -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg">
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+            <div class="hero-glow"></div>
+        </div>
+
+        <div class="hero-content">
+            <div class="hero-badge animate-fade-in">
+                <div class="badge-pulse"></div>
+                <span>+9,000 personas ya están aprendiendo</span>
+            </div>
+
+            <h1 class="hero-title animate-fade-up">
+                <span class="title-line">Simplificamos las</span>
+                <span class="title-line title-highlight">Finanzas</span>
+                <span class="title-line">para vos</span>
+            </h1>
+
+            <p class="hero-subtitle animate-fade-up delay-1">
+                Aprende, crece y mejora tu economía con herramientas prácticas,
+                recursos gratuitos y contenido que realmente entiendas.
+            </p>
+
+            <div class="hero-cta animate-fade-up delay-2">
+                <a href="#productos" class="btn btn-primary btn-lg">
+                    <span>Explorar Herramientas</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+                <a href="#nosotros" class="btn btn-glass btn-lg">
+                    <span>Conoce más</span>
+                </a>
+            </div>
+
+            <div class="hero-stats animate-fade-up delay-3">
+                <div class="stat-card">
+                    <span class="stat-number" data-count="9275">0</span>
+                    <span class="stat-label">Seguidores</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-count="37">0</span>
+                    <span class="stat-label">Videos</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-number" data-count="12">0</span>
+                    <span class="stat-label">Herramientas</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Floating Cards -->
+        <div class="floating-elements">
+            <div class="floating-card card-1">
+                <i class="fas fa-chart-line"></i>
+                <span>Control Total</span>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fas fa-piggy-bank"></i>
+                <span>Ahorro Inteligente</span>
+            </div>
+            <div class="floating-card card-3">
+                <i class="fas fa-shield-alt"></i>
+                <span>Sin Deudas</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="nosotros">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre Nosotros</span>
+                <h2 class="section-title">
+                    Eliminamos la <span class="text-gradient">ignorancia financiera</span>
+                </h2>
+                <p class="section-subtitle">
+                    Creemos que el conocimiento financiero no debería ser un privilegio,
+                    sino un derecho de todos.
+                </p>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Nuestra Misión</h3>
+                        <p>
+                            En <strong>No Somos Ignorantes</strong> democratizamos el acceso
+                            a la educación financiera. Transformamos conceptos complejos en
+                            contenido simple y accionable que cualquiera puede aplicar.
+                        </p>
+                        <p>
+                            Desde Bolivia para el mundo, creamos herramientas prácticas que
+                            te ayudan a tomar el control de tu dinero, pagar tus deudas
+                            inteligentemente y construir el futuro financiero que mereces.
+                        </p>
+                    </div>
+
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Contenido Simple</h4>
+                                <p>Explicaciones claras sin jerga financiera complicada</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Herramientas Prácticas</h4>
+                                <p>Plantillas y calculadoras listas para usar</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Comunidad Activa</h4>
+                                <p>Miles de personas aprendiendo juntas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-visual">
+                    <div class="visual-card">
+                        <div class="card-glow"></div>
+                        <div class="tiktok-embed">
+                            <div class="tiktok-header">
+                                <img src="../assets/profile.jpg" alt="No Somos Ignorantes" class="tiktok-avatar" onerror="this.style.background='linear-gradient(135deg, #3b82f6, #8b5cf6)'; this.style.display='flex'; this.innerHTML='NSI';">
+                                <div class="tiktok-info">
+                                    <span class="tiktok-name">@nosomosignorantes</span>
+                                    <span class="tiktok-handle">TikTok</span>
+                                </div>
+                                <a href="https://www.tiktok.com/@nosomosignorantes" target="_blank" rel="noopener" class="tiktok-follow">
+                                    <i class="fab fa-tiktok"></i> Seguir
+                                </a>
+                            </div>
+                            <div class="tiktok-content">
+                                <a href="https://www.tiktok.com/@nosomosignorantes" target="_blank" rel="noopener" class="tiktok-preview">
+                                    <img src="../assets/CoverTiktok.png" alt="Contenido de TikTok" class="tiktok-cover-image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products/Marketplace Section -->
+    <section class="section products" id="productos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Marketplace</span>
+                <h2 class="section-title">
+                    Herramientas que <span class="text-gradient">transforman</span>
+                </h2>
+                <p class="section-subtitle">
+                    Plantillas profesionales en Google Sheets diseñadas para simplificar
+                    tu vida financiera y hacer crecer tu negocio.
+                </p>
+            </div>
+
+            <!-- Product Filters -->
+            <div class="product-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th-large"></i> Todos
+                </button>
+                <button class="filter-btn" data-filter="personal">
+                    <i class="fas fa-user"></i> Personal
+                </button>
+                <button class="filter-btn" data-filter="emprendedor">
+                    <i class="fas fa-briefcase"></i> Emprendedores
+                </button>
+                <button class="filter-btn" data-filter="gratis">
+                    <i class="fas fa-gift"></i> Gratis
+                </button>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="products-grid">
+
+                <!-- ============ PRODUCTOS PERSONALES ============ -->
+
+                <!-- Producto 1: Comparador de Tasas Hipotecarias -->
+                <div class="product-card" data-category="personal" data-product="comparador-tasas">
+                    <div class="product-badge badge-popular">Popular</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('comparador-tasas')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Finanzas Personales</span>
+                        <h3 class="product-title">Comparador de Crédito Hipotecario</h3>
+                        <p class="product-description">
+                            Compara tasas de interés de diferentes bancos y encuentra el mejor crédito para tu casa.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 99</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('comparador-tasas')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 2: Bola de Nieve -->
+                <div class="product-card" data-category="personal" data-product="bola-nieve">
+                    <div class="product-badge badge-featured">Más Vendido</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-snowflake"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('bola-nieve')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Finanzas Personales</span>
+                        <h3 class="product-title">Bola de Nieve Automatizada</h3>
+                        <p class="product-description">
+                            Elimina tus deudas estratégicamente con cálculos automáticos y visualiza tu camino a la libertad.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 99</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('bola-nieve')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 3: Amortización de Deudas -->
+                <div class="product-card" data-category="personal" data-product="amortizacion">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('amortizacion')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Finanzas Personales</span>
+                        <h3 class="product-title">Amortizador de Deudas Pro</h3>
+                        <p class="product-description">
+                            Calcula pagos a capital y reduce años de tu deuda con esta calculadora avanzada.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 99</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('amortizacion')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto 4: Matriz de Riesgos -->
+                <div class="product-card" data-category="personal" data-product="matriz-riesgos">
+                    <div class="product-badge badge-new">Nuevo</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('matriz-riesgos')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Finanzas Personales</span>
+                        <h3 class="product-title">Analizador de Score Crediticio</h3>
+                        <p class="product-description">
+                            Evalúa cómo cada deuda impacta tu historial crediticio antes de tomarla.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 150</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('matriz-riesgos')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto GRATIS: Presupuesto 50/30/20 -->
+                <div class="product-card" data-category="personal gratis" data-product="presupuesto">
+                    <div class="product-badge badge-free">Gratis</div>
+                    <div class="product-image">
+                        <div class="product-icon icon-free">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('presupuesto')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Finanzas Personales</span>
+                        <h3 class="product-title">Presupuesto Mensual 50/30/20</h3>
+                        <p class="product-description">
+                            La regla más simple y efectiva para organizar tus finanzas. Empieza a ahorrar hoy.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current price-free">Gratis</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('presupuesto')">
+                                <i class="fas fa-download"></i> Descargar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ============ PRODUCTOS EMPRENDEDORES ============ -->
+
+                <!-- Producto E1: Tracking de Ventas -->
+                <div class="product-card" data-category="emprendedor" data-product="tracking-ventas">
+                    <div class="product-badge badge-popular">Popular</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('tracking-ventas')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Sistema de Ventas con Código Único</h3>
+                        <p class="product-description">
+                            Rastrea cada venta con código único por producto. Control total de tu negocio.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 150</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('tracking-ventas')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E2: Gastos Operativos -->
+                <div class="product-card" data-category="emprendedor" data-product="gastos-operativos">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('gastos-operativos')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Control de Gastos Operativos</h3>
+                        <p class="product-description">
+                            Organiza todos los gastos de operación de tu empresa en un solo lugar.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 50</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('gastos-operativos')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E3: Costos Indirectos -->
+                <div class="product-card" data-category="emprendedor" data-product="costos-indirectos">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('costos-indirectos')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Calculadora de Costos Indirectos</h3>
+                        <p class="product-description">
+                            Identifica y asigna correctamente los costos indirectos de producción.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 50</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('costos-indirectos')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E4: Costos de Venta -->
+                <div class="product-card" data-category="emprendedor" data-product="costos-venta">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-tags"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('costos-venta')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Gestor de Costos de Venta</h3>
+                        <p class="product-description">
+                            Calcula el costo real de vender cada producto incluyendo comisiones y envíos.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 50</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('costos-venta')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E5: ARPU -->
+                <div class="product-card" data-category="emprendedor" data-product="arpu">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-user-dollar"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('arpu')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Calculadora ARPU</h3>
+                        <p class="product-description">
+                            Mide el ingreso promedio por cliente y optimiza tu estrategia de precios.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 70</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('arpu')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E6: Flujo de Caja -->
+                <div class="product-card" data-category="emprendedor" data-product="flujo-caja">
+                    <div class="product-badge badge-featured">Esencial</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('flujo-caja')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Flujo de Caja Dual (Bs/$us)</h3>
+                        <p class="product-description">
+                            Controla entradas y salidas en bolivianos y dólares con conversión automática.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 99</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('flujo-caja')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E7: Calculadora de Precios -->
+                <div class="product-card" data-category="emprendedor" data-product="calc-precios">
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-percent"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('calc-precios')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Calculadora de Precio de Venta</h3>
+                        <p class="product-description">
+                            Define tu precio ideal incluyendo margen de ganancia e impuestos bolivianos.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 99</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('calc-precios')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Producto E8: Estados Financieros -->
+                <div class="product-card" data-category="emprendedor" data-product="estados-financieros">
+                    <div class="product-badge badge-new">Premium</div>
+                    <div class="product-image">
+                        <div class="product-icon">
+                            <i class="fas fa-file-invoice-dollar"></i>
+                        </div>
+                        <div class="product-overlay">
+                            <button class="btn btn-white btn-sm" onclick="openProductModal('estados-financieros')">
+                                Ver Detalles
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <span class="product-category">Emprendedores</span>
+                        <h3 class="product-title">Estados Financieros Completos</h3>
+                        <p class="product-description">
+                            Estado de Resultados y Flujo de Caja profesional para tu empresa.
+                        </p>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price-current">Bs. 150</span>
+                            </div>
+                            <button class="btn btn-primary btn-sm" onclick="addToCart('estados-financieros')">
+                                <i class="fas fa-shopping-cart"></i> Comprar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Pack Offers -->
+            <div class="packs-section">
+                <div class="pack-card pack-personal">
+                    <div class="pack-badge">AHORRA 33%</div>
+                    <div class="pack-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3>Pack Finanzas Personales</h3>
+                    <p>Las 4 herramientas esenciales para tomar control de tu dinero</p>
+                    <div class="pack-includes">
+                        <span><i class="fas fa-check"></i> Comparador de Crédito</span>
+                        <span><i class="fas fa-check"></i> Bola de Nieve</span>
+                        <span><i class="fas fa-check"></i> Amortizador Pro</span>
+                        <span><i class="fas fa-check"></i> Analizador Score</span>
+                    </div>
+                    <div class="pack-pricing">
+                        <span class="pack-original">Bs. 447</span>
+                        <span class="pack-final">Bs. 300</span>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" onclick="addToCart('pack-personal')">
+                        <i class="fas fa-box-open"></i> Obtener Pack Completo
+                    </button>
+                </div>
+
+                <div class="pack-card pack-emprendedor">
+                    <div class="pack-badge">AHORRA 30%</div>
+                    <div class="pack-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3>Pack Emprendedor Total</h3>
+                    <p>Todo lo que necesitas para profesionalizar tu negocio</p>
+                    <div class="pack-includes">
+                        <span><i class="fas fa-check"></i> Sistema de Ventas</span>
+                        <span><i class="fas fa-check"></i> Gastos Operativos</span>
+                        <span><i class="fas fa-check"></i> Costos Indirectos</span>
+                        <span><i class="fas fa-check"></i> Costos de Venta</span>
+                        <span><i class="fas fa-check"></i> Calculadora ARPU</span>
+                        <span><i class="fas fa-check"></i> Flujo de Caja Dual</span>
+                        <span><i class="fas fa-check"></i> Calculadora Precios</span>
+                        <span><i class="fas fa-check"></i> Estados Financieros</span>
+                    </div>
+                    <div class="pack-pricing">
+                        <span class="pack-original">Bs. 718</span>
+                        <span class="pack-final">Bs. 500</span>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" onclick="addToCart('pack-emprendedor')">
+                        <i class="fas fa-box-open"></i> Obtener Pack Completo
+                    </button>
+                </div>
+
+                <div class="pack-card pack-enterprise">
+                    <div class="pack-badge" style="background: linear-gradient(135deg, #D4AF37, #B8860B);">NUEVO</div>
+                    <div class="pack-icon" style="background: linear-gradient(135deg, #D4AF37, #B8860B); color: white;">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Enterprise Valuation</h3>
+                    <p>Herramientas profesionales de inversión y valuación de empresas en Google Sheets</p>
+                    <div class="pack-includes">
+                        <span><i class="fas fa-check"></i> Portfolio Dashboard (Markowitz)</span>
+                        <span><i class="fas fa-check"></i> Correlaciones Automatizadas</span>
+                        <span><i class="fas fa-check"></i> GOOGLEFINANCE en Tiempo Real</span>
+                        <span><i class="fas fa-check"></i> DCF Valuation Model</span>
+                        <span><i class="fas fa-check"></i> Análisis de Sensibilidad</span>
+                        <span><i class="fas fa-check"></i> Comparación vs S&P 500, NASDAQ, Dow Jones</span>
+                    </div>
+                    <div class="pack-pricing">
+                        <span class="pack-original">$99 USD</span>
+                        <span class="pack-final">$49 USD</span>
+                    </div>
+                    <button class="btn btn-primary btn-lg btn-block" style="background: linear-gradient(135deg, #D4AF37, #B8860B);" onclick="addToCart('pack-enterprise')">
+                        <i class="fas fa-rocket"></i> Obtener Enterprise Pack
+                    </button>
+                </div>
+            </div>
+
+            <div class="products-cta">
+                <p>¿No encuentras lo que buscas?</p>
+                <a href="#contacto" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> Solicitar herramienta personalizada
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Free Resources Section -->
+    <section class="section resources" id="recursos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Recursos Gratuitos</span>
+                <h2 class="section-title">
+                    Aprende <span class="text-gradient">sin costo</span>
+                </h2>
+                <p class="section-subtitle">
+                    Contenido educativo gratuito para que empieces tu camino
+                    hacia la libertad financiera.
+                </p>
+            </div>
+
+            <div class="resources-grid">
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <h3>Guías Prácticas</h3>
+                    <p>Artículos detallados sobre finanzas personales, inversiones y emprendimiento.</p>
+                    <a href="#" class="resource-link">
+                        Próximamente <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3>Videos Educativos</h3>
+                    <p>Contenido en TikTok explicando conceptos de forma simple y práctica.</p>
+                    <a href="https://www.tiktok.com/@nosomosignorantes" target="_blank" rel="noopener" class="resource-link">
+                        Ver videos <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-file-download"></i>
+                    </div>
+                    <h3>Plantilla Gratis</h3>
+                    <p>Presupuesto 50/30/20 para empezar a organizar tus finanzas hoy mismo.</p>
+                    <a href="#productos" class="resource-link">
+                        Descargar <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <div class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-headphones"></i>
+                    </div>
+                    <h3>Podcast</h3>
+                    <p>Economía y finanzas sin complicaciones. Escucha mientras aprendes.</p>
+                    <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener" class="resource-link">
+                        Escuchar <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Podcast Section -->
+    <section class="section podcast" id="podcast">
+        <div class="container">
+            <div class="podcast-wrapper">
+                <div class="podcast-content">
+                    <span class="section-tag">Podcast</span>
+                    <h2 class="section-title">
+                        Escucha mientras <span class="text-gradient">aprendes</span>
+                    </h2>
+                    <p class="podcast-description">
+                        Conversaciones profundas sobre economía, finanzas y emprendimiento.
+                        Aprende de expertos y casos reales mientras vas al trabajo o haces ejercicio.
+                    </p>
+
+                    <div class="podcast-platforms">
+                        <span class="platforms-label">Escúchanos en:</span>
+                        <div class="platforms-icons">
+                            <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener" class="platform-icon spotify" title="Spotify">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener" class="btn btn-primary btn-lg">
+                        <i class="fab fa-spotify"></i>
+                        <span>Escuchar en Spotify</span>
+                    </a>
+                </div>
+
+                <div class="podcast-visual">
+                    <div class="podcast-player">
+                        <div class="player-artwork">
+                            <div class="artwork-placeholder">
+                                <i class="fas fa-podcast"></i>
+                            </div>
+                            <div class="player-waves">
+                                <span></span><span></span><span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="player-info">
+                            <span class="player-tag">Último episodio</span>
+                            <h4 class="player-title">Economía y Finanzas sin Complicaciones #1: La inflación me está comiendo el sueldo</h4>
+                            <span class="player-duration">Podcast</span>
+                        </div>
+                        <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener" class="player-controls">
+                            <button class="control-btn control-play"><i class="fab fa-spotify"></i></button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Testimonios</span>
+                <h2 class="section-title">
+                    Lo que dice nuestra <span class="text-gradient">comunidad</span>
+                </h2>
+            </div>
+
+            <div class="testimonials-slider" id="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Gracias a la plantilla de Bola de Nieve, logré pagar 3 deudas en 6 meses. ¡Nunca pensé que sería tan fácil organizarme!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">MR</div>
+                        <div class="author-info">
+                            <span class="author-name">María R.</span>
+                            <span class="author-location">La Paz, Bolivia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"El sistema de tracking de ventas profesionalizó mi negocio. Ahora sé exactamente cuánto gano por cada producto."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">CP</div>
+                        <div class="author-info">
+                            <span class="author-name">Carlos P.</span>
+                            <span class="author-location">Santa Cruz, Bolivia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"El contenido de TikTok es oro puro. Aprendí más en un mes viéndolos que en años de escuela sobre finanzas."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">LV</div>
+                        <div class="author-info">
+                            <span class="author-name">Lucía V.</span>
+                            <span class="author-location">Cochabamba, Bolivia</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Contacto</span>
+                    <h2 class="section-title">
+                        ¿Tienes alguna <span class="text-gradient">pregunta</span>?
+                    </h2>
+                    <p class="contact-description">
+                        Estamos aquí para ayudarte. Escríbenos y te responderemos
+                        lo antes posible.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">Email</span>
+                                <a href="mailto:nosomosignorantes@gmail.com">nosomosignorantes@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-info">
+                                <span class="method-label">WhatsApp</span>
+                                <a href="https://wa.me/59176638365">+591 76638365</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <span class="social-label">Síguenos:</span>
+                        <div class="social-links">
+                            <a href="https://www.tiktok.com/@nosomosignorantes" target="_blank" rel="noopener" class="social-link" title="TikTok">
+                                <i class="fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener" class="social-link" title="Spotify">
+                                <i class="fab fa-spotify"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contact-name">Nombre</label>
+                                <input type="text" id="contact-name" name="nombre" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contact-email">Email</label>
+                                <input type="email" id="contact-email" name="email" placeholder="tu@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-subject">Asunto</label>
+                            <select id="contact-subject" name="asunto" required>
+                                <option value="">Selecciona un asunto</option>
+                                <option value="Consulta sobre productos">Consulta sobre productos</option>
+                                <option value="Soporte técnico">Soporte técnico</option>
+                                <option value="Propuesta de colaboración">Propuesta de colaboración</option>
+                                <option value="Otro">Otro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contact-message">Mensaje</label>
+                            <textarea id="contact-message" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-lg btn-block" id="contact-submit">
+                            <span>Enviar Mensaje</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <span class="logo-text"><span class="logo-no">NO</span> <span class="logo-somos">SOMOS</span> <span class="logo-accent">IGNORANTES</span></span>
+                    </a>
+                    <p class="footer-tagline">
+                        Simplificamos las Finanzas para vos.<br>
+                        Aprende, crece y mejora tu economía.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.tiktok.com/@nosomosignorantes" target="_blank" rel="noopener"><i class="fab fa-tiktok"></i></a>
+                        <a href="https://open.spotify.com/show/25uQnbwaFuFpX7bNuAnMi1?si=a525a56425ce49ce" target="_blank" rel="noopener"><i class="fab fa-spotify"></i></a>
+                        <a href="https://wa.me/59176638365" target="_blank" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Navegación</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#recursos">Recursos</a></li>
+                        <li><a href="#podcast">Podcast</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Productos</h4>
+                    <ul>
+                        <li><a href="#productos">Pack Personal</a></li>
+                        <li><a href="#productos">Pack Emprendedor</a></li>
+                        <li><a href="#productos">Herramientas Gratis</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="mailto:nosomosignorantes@gmail.com">nosomosignorantes@gmail.com</a></li>
+                        <li><a href="https://wa.me/59176638365">+591 76638365</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 No Somos Ignorantes. Todos los derechos reservados.</p>
+                <p class="footer-credit">
+                    Hecho con <span class="heart">❤️</span> en Bolivia
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3><i class="fas fa-shopping-cart"></i> Tu Carrito</h3>
+            <button class="cart-close" onclick="closeCart()">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <!-- Items dinámicos -->
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span class="total-amount" id="cart-total">Bs. 0</span>
+            </div>
+            <button class="btn btn-primary btn-block" onclick="checkout()">
+                Proceder al Pago
+            </button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cart-overlay" onclick="closeCart()"></div>
+
+    <!-- Floating Cart Button -->
+    <button class="cart-floating" id="cart-floating" onclick="toggleCart()">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="cart-count" id="cart-count">0</span>
+    </button>
+
+    <!-- Product Detail Modal -->
+    <div class="modal" id="product-modal">
+        <div class="modal-overlay" onclick="closeProductModal()"></div>
+        <div class="modal-content modal-product" id="product-modal-content">
+            <!-- Contenido dinámico del producto -->
+        </div>
+    </div>
+
+    <!-- Checkout Modal -->
+    <div class="modal" id="checkout-modal">
+        <div class="modal-overlay" onclick="closeCheckoutModal()"></div>
+        <div class="modal-content modal-checkout">
+            <button class="modal-close" onclick="closeCheckoutModal()">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="checkout-wrapper">
+                <div class="checkout-header">
+                    <h2>Finalizar Compra</h2>
+                    <p>Completa tu información para recibir tus herramientas</p>
+                </div>
+
+                <form class="checkout-form" id="checkout-form">
+                    <div class="form-section">
+                        <h3><i class="fas fa-user"></i> Información Personal</h3>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="checkout-name">Nombre Completo *</label>
+                                <input type="text" id="checkout-name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="checkout-email">Email *</label>
+                                <input type="email" id="checkout-email" required>
+                                <span class="form-hint">Aquí recibirás acceso a tus productos</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-receipt"></i> Resumen del Pedido</h3>
+                        <div class="checkout-summary" id="checkout-summary">
+                            <!-- Items dinámicos -->
+                        </div>
+                        <div class="checkout-total">
+                            <span>Total a Pagar:</span>
+                            <span class="checkout-total-amount" id="checkout-total-amount">Bs. 0</span>
+                        </div>
+                    </div>
+
+                    <div class="form-section">
+                        <h3><i class="fas fa-credit-card"></i> Método de Pago</h3>
+                        <div class="payment-methods">
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="qr" checked>
+                                <div class="payment-option">
+                                    <i class="fas fa-qrcode"></i>
+                                    <span>QR Bolivia</span>
+                                </div>
+                            </label>
+                            <label class="payment-method">
+                                <input type="radio" name="payment" value="transfer">
+                                <div class="payment-option">
+                                    <i class="fas fa-university"></i>
+                                    <span>Transferencia</span>
+                                </div>
+                            </label>
+                        </div>
+                        <div class="payment-info" id="payment-info">
+                            <p><strong>Instrucciones:</strong></p>
+                            <p>Se te mostrará el código QR o los datos bancarios después de confirmar. Envía el comprobante por WhatsApp al +591 76638365</p>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">
+                        <i class="fas fa-lock"></i>
+                        <span>Confirmar Pedido</span>
+                    </button>
+
+                    <p class="checkout-security">
+                        <i class="fas fa-shield-alt"></i>
+                        Pago 100% seguro. Recibirás acceso inmediato a tus herramientas.
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Animation Libraries -->
+    <!-- GSAP - GreenSock Animation Platform -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <!-- Anime.js v4 -->
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/cart.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

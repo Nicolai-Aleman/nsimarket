@@ -1,0 +1,25 @@
+INSTRUCCIONES PARA ASSETS
+=========================
+
+Agrega los siguientes archivos a esta carpeta:
+
+1. profile.jpg
+   - Tu foto de perfil
+   - Tamaño recomendado: 400x400 px
+   - Formato: JPG o PNG
+
+2. favicon.png
+   - Icono para la pestaña del navegador
+   - Tamaño: 32x32 px o 64x64 px
+   - Formato: PNG con fondo transparente
+   - Sugerencia: Usa el emoji 💰 o un logo simple
+
+3. og-image.jpg
+   - Imagen que aparece cuando compartes en redes sociales
+   - Tamaño recomendado: 1200x630 px
+   - Incluye tu logo y slogan
+
+HERRAMIENTAS GRATUITAS PARA CREAR:
+- Canva.com (diseño fácil)
+- Remove.bg (quitar fondo de fotos)
+- Favicon.io (generador de favicon)

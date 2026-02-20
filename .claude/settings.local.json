@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python build_gastos_operativos.py:*)",
+      "Bash(python build_costos_indirectos.py:*)",
+      "Bash(python build_costo_ventas.py:*)",
+      "Bash(python build_arpu.py:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
