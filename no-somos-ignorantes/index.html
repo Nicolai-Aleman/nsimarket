@@ -35,8 +35,8 @@
     <link rel="stylesheet" href="css/animations.css">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/jpeg" sizes="32x32" href="assets/profile.jpg">
-    <link rel="icon" type="image/jpeg" sizes="16x16" href="assets/profile.jpg">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon.png">
     <link rel="apple-touch-icon" href="assets/profile.jpg">
     <link rel="stylesheet" href="css/checkout-additions.css">
 </head>
@@ -1181,8 +1181,16 @@
                             </label>
                         </div>
                         <div class="payment-info" id="payment-info">
-                            <p><strong>Instrucciones:</strong></p>
-                            <p>Se te mostrará el código QR o los datos bancarios después de confirmar. Envía el comprobante por WhatsApp al +591 76638365</p>
+                            <div id="payment-qr">
+                                <p style="font-weight:600;margin-bottom:0.75rem;text-align:center;"><i class="fas fa-qrcode"></i> Escanea el QR para pagar:</p>
+                                <img src="assets/QR.jpg" alt="QR pago" style="width:220px;max-width:100%;height:auto;border-radius:12px;border:2px solid #e5e7eb;margin:0 auto;display:block;">
+                                <p style="font-size:0.8125rem;color:#9ca3af;margin-top:0.75rem;text-align:center;">Escanea con tu app bancaria</p>
+                            </div>
+                            <div id="payment-transfer" style="display:none;">
+                                <p><strong>Datos para transferencia:</strong></p>
+                                <p>Envia el monto y mandanos el comprobante por WhatsApp.</p>
+                            </div>
+                            <p style="margin-top:1rem;padding-top:1rem;border-top:1px solid #e5e7eb;font-size:0.875rem;text-align:center;"><i class="fab fa-whatsapp" style="color:#25d366;"></i> Envia comprobante al <a href="https://wa.me/59176638365" target="_blank" rel="noopener" style="color:#25d366;font-weight:600;">+591 76638365</a></p>
                         </div>
                     </div>
 

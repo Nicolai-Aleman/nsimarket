@@ -438,8 +438,8 @@ window.showToast = showToast;
 // MODALS
 // ==========================================
 function openModal(type) {
-    const modal = document.getElementById('modal');
-    const modalContent = document.getElementById('modal-content');
+    const modal = document.getElementById('product-modal');
+    const modalContent = document.getElementById('product-modal-content');
 
     let content = '';
 
@@ -478,7 +478,7 @@ function openModal(type) {
 }
 
 function closeModal() {
-    const modal = document.getElementById('modal');
+    const modal = document.getElementById('product-modal');
     modal.classList.remove('open');
     document.body.classList.remove('no-scroll');
 }
@@ -500,8 +500,8 @@ document.addEventListener('keydown', (e) => {
 // PRODUCT MODAL
 // ==========================================
 function openProductModal(productId) {
-    const modal = document.getElementById('modal');
-    const modalContent = document.getElementById('modal-content');
+    const modal = document.getElementById('product-modal');
+    const modalContent = document.getElementById('product-modal-content');
 
     // Product data (in production, this would come from a database)
     const products = {
@@ -696,6 +696,10 @@ function updateCheckoutSummary() {
 
 window.openCheckoutModal = openCheckoutModal;
 window.closeCheckoutModal = closeCheckoutModal;
+
+
+// Payment toggle
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('input[name="payment"]').forEach(r=>{r.addEventListener('change',()=>{const q=document.getElementById('payment-qr'),t=document.getElementById('payment-transfer');if(q&&t){q.style.display=r.value==='qr'?'block':'none';t.style.display=r.value==='transfer'?'block':'none';}});});});
 
 // Handle checkout form
 document.addEventListener('DOMContentLoaded', () => {
