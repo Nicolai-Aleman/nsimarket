@@ -1,3 +1,19 @@
+
+/* Custom Cursor */
+body {
+    cursor: url('assets/favicon.png'), auto;
+}
+a, button, [onclick], .product-card, input, textarea, select, label {
+    cursor: url('assets/favicon.png'), pointer;
+}
+
+/* Custom Cursor */
+body {
+    cursor: url('assets/favicon.png'), auto;
+}
+a, button, [onclick], .product-card, input, textarea, select, label {
+    cursor: url('assets/favicon.png'), pointer;
+}
 /* ========================================
    NO SOMOS IGNORANTES - Modern Styles
    Inspired by Jeton.com - 2025/2026
