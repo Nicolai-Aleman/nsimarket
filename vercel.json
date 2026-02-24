@@ -1,7 +1,9 @@
 ﻿{
     "rewrites": [
         { "source": "/api/(.*)", "destination": "/api/$1" },
-        { "source": "/(.*\\.(jpg|jpeg|png|gif|svg|ico|webp|css|js|woff|woff2|ttf|eot|mp4|webm|pdf))", "destination": "/no-somos-ignorantes/$1" },
+        { "source": "/no-somos-ignorantes/assets/(.*)", "destination": "/no-somos-ignorantes/assets/$1" },
+        { "source": "/assets/(.*)", "destination": "/assets/$1" },
+        { "source": "/(.*\\.(?:jpg|jpeg|png|gif|svg|ico|webp|css|js|woff|woff2|ttf|eot)$)", "destination": "/no-somos-ignorantes/$1" },
         { "source": "/(.*)", "destination": "/no-somos-ignorantes/index.html" }
     ]
 }
