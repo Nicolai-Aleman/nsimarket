@@ -1,12 +1,6 @@
-﻿{
+{
     "rewrites": [
         { "source": "/api/(.*)", "destination": "/api/$1" },
         { "source": "/(.*)", "destination": "/no-somos-ignorantes/index.html" }
-    ],
-    "headers": [
-        {
-            "source": "/no-somos-ignorantes/assets/(.*)",
-            "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000" }]
-        }
     ]
 }
