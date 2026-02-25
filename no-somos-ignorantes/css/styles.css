@@ -158,7 +158,6 @@ button {
 input, textarea, select {
     font-family: inherit;
     outline: none;
-    border: none;
 }
 
 /* ---- Loader ---- */
@@ -2165,12 +2164,13 @@ input, textarea, select {
 .checkout-form input {
     width: 100%;
     padding: 1rem 1.125rem;
-    background: white;
-    border: 2px solid #d1d5db;
-    border-radius: var(--radius-md);
-    font-size: 0.9375rem;
-    color: var(--neutral-800);
-    transition: all var(--transition-base);
+    background: #f9fafb;
+    border: 2px solid #d1d5db !important;
+    border-radius: 12px;
+    font-size: 1rem;
+    color: #111827;
+    transition: all 0.2s ease;
+    box-sizing: border-box;
     outline: none;
 }
 
@@ -2180,8 +2180,8 @@ input, textarea, select {
 
 .checkout-form input:focus {
     background: white;
-    border-color: var(--primary-500);
-    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+    border-color: #3b82f6 !important;
+    box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.12);
 }
 
 .form-hint {
